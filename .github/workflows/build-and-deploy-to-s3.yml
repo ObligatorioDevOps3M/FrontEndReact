@@ -23,8 +23,10 @@ jobs:
       - name: Dependencies Installation
         run: npm install
 
+      - name: Test
+        run: npm run test
+
       #- name: Run Linters
-      #  run: npm run linters-ci
 
       - name: App Build
         run: npm run build
